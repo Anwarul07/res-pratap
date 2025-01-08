@@ -45,8 +45,7 @@ hr {
   display: block;
   max-width: 140px;
   margin: 1rem 1rem 1rem 0rem;
-    padding-left: 35px;
-  
+  padding-left: 35px;
 }
 
 .link-secondary {
@@ -57,7 +56,6 @@ hr {
   max-width: 140px;
   margin: 1rem 1rem 1rem 0rem;
   padding-left: 20px;
-
 }
 
 /** look into BEM naming convention for CSS **/
@@ -175,50 +173,53 @@ hr {
 }
 /* About Page  */
 .head {
-
-  height: 400px;
+  height: 450px;
   width: 100%;
-  background: url(cover.jpg);
-  background-position: bottom;
-  margin-right: 110px;
-  /* background-position: 0% 90%; */
-  /* background-size: calc(25%, 10%); */
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+.head img {
+  height:80%;
+  width: 100%;
+}
+
 .circle {
   background-image: url(mine.jpg);
   background-position: 80% 20%;
-
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  top: 190px;
+  left: 35%;
   border-radius: 50%;
-  margin-top: 20%;
   border: 7px solid whitesmoke;
 }
-.t-40 {
-  margin-top: 200px;
+.t-20 {
+  margin-top: 70px;
 }
 .t-none {
   text-align: left !important;
 }
 
 @media only screen and (max-width: 900px) {
-  
+  .head {
+    height: 300px;
+  }
+  .head img {
+    height:70%;
+    width: 100%;
+  }
   .circle {
-    height: 240px;
-    width: 240px;
-    margin-top: 40%;
-
+  height: 130px;
+  width: 130px; 
+  top:210px;
+  left: 32vw;
+  border: 4px solid whitesmoke;
   }
   .link-primary {
     padding-top: 15px;
   }
-  .head {
-    height: 280px;
+  .t-20{
+    margin-top: 0px;
   }
- 
+  
 }
