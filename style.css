@@ -177,7 +177,7 @@ hr {
   width: 100%;
 }
 .head img {
-  height:80%;
+  height:90%;
   width: 100%;
 }
 
@@ -185,7 +185,7 @@ hr {
   background-image: url(mine.jpg);
   background-position: 80% 20%;
   background-size: cover;
-  height: 330px;
+  height:330px;
   width: 330px;
   position: absolute;
   top: 190px;
